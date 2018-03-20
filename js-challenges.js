@@ -247,7 +247,7 @@ function isNumber(a) {
     return arr
 }
 
-// console.log(isNumber(1));
+console.log(isNumber(1));
 
 function hammingDistance(num1, num2) {
     let count = 0;
@@ -308,7 +308,7 @@ let c = map({ a: 1, b: 2, c: 4}, function(value, key) { //=> [2, 3, 5]
 
 // ----------- ISOGRAM ----------- //
 
-// console.log(hammingDistance(1, 4))
+console.log(hammingDistance(1, 4))
 
 function isogram(s) {
     let splitString = s.split("");
