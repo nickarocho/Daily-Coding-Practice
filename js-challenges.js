@@ -247,7 +247,7 @@ function isNumber(a) {
     return arr
 }
 
-console.log(isNumber(1));
+// console.log(isNumber(1));
 
 function hammingDistance(num1, num2) {
     let count = 0;
@@ -308,7 +308,7 @@ let c = map({ a: 1, b: 2, c: 4}, function(value, key) { //=> [2, 3, 5]
 
 // ----------- ISOGRAM ----------- //
 
-console.log(hammingDistance(1, 4))
+// console.log(hammingDistance(1, 4))
 
 function isogram(s) {
     let splitString = s.split("");
@@ -396,4 +396,22 @@ function insertionSort(arr) {
     return arr
 }
 
-console.log(insertionSort([2,4,5,1,3,7]))
+// console.log(insertionSort([2,4,5,1,3,7]))
+
+
+
+// -------- Codewars "Summation" -------- //
+
+// Write a program that finds the summation of 
+// every number between 1 and num. The number will always be a positive integer greater than 0.
+
+// i.e.
+
+// summation(8) -> 36
+// 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+
+function summation (num) {
+    return num * (num + 1) / 2
+}
+
+console.log(summation(78))
